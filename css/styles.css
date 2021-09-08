@@ -18,7 +18,7 @@ hr {
     height: 0;
     width: 4%;
     padding-top: 10px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 ul {
     /* list-style-type:dot; */
@@ -48,13 +48,17 @@ li span span {
     margin-top:-10px;
 }
 
+#intro-yuj14 {
+    text-align:center;
+}
+
 #class{
     margin-top:4px;
     margin-bottom: 4px;
     font-size: 12px;
     font-weight: normal;
 }
-#major{
+.major{
     margin-top:4px;
     font-size: 13px;
     margin-left: 20px;
@@ -82,11 +86,7 @@ li span span {
     margin-left: 20px;
     font-weight: bold;
 }
-.uni span{
-    padding-left:18px;
-    font-weight:lighter;
-    font-size: 13px;
-}
+
 .title{
     margin-bottom: 0;
     margin-left: 20px;
@@ -109,4 +109,8 @@ li span span {
     width: 35%;
     margin-right:70px;
     margin-left:0px;
+}
+#bottom {
+    margin-left:70px;
+    width:100%;
 }
