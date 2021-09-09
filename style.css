@@ -1,0 +1,130 @@
+/*PART A
+
+/* top navigation bar for the homepage*/
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgb(58, 56, 56);
+}
+
+.topnav a:hover {
+  background-color: rgb(58, 56, 56);
+  color: white;
+}
+
+.topnav a.active {
+  background-color:rgb(29, 29, 29)  ;
+  color: rgb(173, 160, 160);
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("teamname.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    float: left;
+    width: 30.33%;
+    padding: 18px;
+    text-align: center;
+    color: black;
+    
+    }
+  img{
+    border-radius: 50%;
+  }
+  .thumbail img{
+    border-radius:0%;
+  }
+
+  img:hover {
+      box-shadow: 0 0 10px 5px rgb(106,176,161);
+  }
+   
+  /*PART B*/
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(121, 90, 140);;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.header img{
+  text-align:left;
+}
+.info h3{
+  font-size:20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.info{
+  font-size: 7px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: gray;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
