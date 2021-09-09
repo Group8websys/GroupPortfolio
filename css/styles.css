@@ -1,116 +1,213 @@
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    /* background-color: #d3e0ea; */
+/*PART A*/
+
+/*Parallax effect on team name/slogan*/
+.parallax {
+  /*image used */
+  background-image: url("../teamname.png");
+
+  /* height */
+  min-height: 500px; 
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-h1{
-    text-align:center;
-    padding: 0;
-    margin-bottom: 0;
-    letter-spacing:1.5px;
-    font-size:3.5vw;
-    margin-top:16px;
+
+
+/*  photo grid ... images/previous works column and rows */
+  .grid::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .grid_column {
+    float: left;
+    width: 30.33%;
+    padding: 18px;
+    text-align: center;
+    color: black;
+    
+    }
+  img{
+    border-radius: 50%;
+  }
+  .thumbail img{
+    border-radius:0%;
+  }
+
+  img:hover {
+      box-shadow: 0 0 10px 5px rgb(106,176,161);
+  }
+   
+  /*PART B*/
+
+/* Header/Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(121, 90, 140);;
 }
-hr {
-    border-style: none;
-    border-top-style:dotted;
-    border-color: #ff7a00;
-    border-width: 6px;
-    height: 0;
-    width: 4%;
-    padding-top: 10px;
-    /* padding-bottom: 5px; */
+
+.header h1 {
+  font-size: 50px;
 }
-ul {
-    /* list-style-type:dot; */
-    padding-left:0;
-    margin-left: 70px;
-    margin-top: 4px;
-    margin-bottom: 0;
+.header img{
+  text-align:left;
 }
-li{
-    padding-bottom: 5px;
-    color:#ff7a00;
+.info h3{
+  font-size:20px;
+  font-family: 'Courier New', Courier, monospace;
 }
-li span{
-    color:black;
-    font-size: 15px;
-    font-weight: lighter;
+.info{
+  font-size: 7px;
 }
-li span span {
-    padding-left: 18px;
-    font-size: 13px;
+
+/* the columns that float next to each other */
+/* Left column of the resume:objective, education, work experience */
+.leftcolumn {   
+  float: left;
+  width: 75%;
 }
-#contact{
-    font-size: 13px;
-    text-align:center;
-    padding: 0;
-    margin:0;
-    margin-top:-10px;
+
+/* Right column: personal info, skills, awards*/
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: gray;
+  padding-left: 20px;
+}
+
+
+
+/* card effect aka the card looking background for the personal info, skills, and awards */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+
+/* Footer */
+.footer {
+  padding: absolute;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* ------------------------------ */
+/*        JIALIN's CSS            */
+/* ------------------------------ */
+h1.jialin-h1{
+  text-align:center;
+  padding: 0;
+  margin-bottom: 0;
+  letter-spacing:1.5px;
+  font-size:4vw;
+  margin-top:16px;
+}
+hr#jialin-hr {
+  border-style: none;
+  border-top-style:dotted;
+  border-color: #ff7a00;
+  border-width: 6px;
+  height: 0;
+  width: 4%;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+ul.jialin-list {
+  /* list-style-type:dot; */
+  padding-left:0;
+  margin-left: 70px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+.jialin-list li{
+  padding-bottom: 5px;
+  color:#ff7a00;
+}
+.jialin-list li span{
+  color:black;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.jialin-list li span span {
+  padding-left: 18px;
+  font-size: 13px;
+}
+#jl-contact{
+  font-size: 13px;
+  text-align:center;
+  padding: 0;
+  margin:0;
+  margin-top:-10px;
 }
 
 #intro-yuj14 {
-    text-align:center;
+  text-align:center;
 }
 
-#class{
-    margin-top:4px;
-    margin-bottom: 4px;
-    font-size: 12px;
-    font-weight: normal;
+.jl-class{
+  margin-top:4px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: normal;
 }
-.major{
-    margin-top:4px;
-    font-size: 13px;
-    margin-left: 20px;
-    color:rgb(126, 122, 122);
+.jl-major{
+  margin-top:4px;
+  font-size: 13px;
+  margin-left: 20px;
+  color:rgb(126, 122, 122);
 }
-#cources{
-    padding-right: 10px;
-    margin-bottom: 0;
-    margin-left: 50px;
-    font-weight:bold;
+#jl-cources{
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-left: 50px;
+  font-weight:bold;
 }
-#lang{
-    margin-top:0;
+#jl-lang{
+  margin-top:0;
 }
-#hor{
-    margin-left: 70px;
+#jl-hor{
+  margin-left: 70px;
 }
-#ho{
-    margin-top:16px;
+#jl-ho{
+  margin-top:16px;
 }
-.uni {
-    display:inline-block;
-    padding-right: 10px;
-    margin-bottom: 0;
-    margin-left: 20px;
-    font-weight: bold;
+.jl-uni {
+  display:inline-block;
+  padding-right: 10px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
-.title{
-    margin-bottom: 0;
-    margin-left: 20px;
-    color:#0776aa;
-    font-size: 19px;
+.jl-title{
+  margin-bottom: 0;
+  margin-left: 20px;
+  color:#0776aa;
+  font-size: 19px;
 }
-.row{
-    display: flex;
-    margin:auto;
+.jl-row{
+  display: flex;
+  margin:auto;
 }
-.left {
-    width: 65%;
-    margin-right:10px;
-    margin-left:70px;
+.jl-left {
+  width: 65%;
+  margin-right:10px;
+  margin-left:70px;
 }
-.left a {
-    color:black;
+.jl-left a {
+  color:black;
 }
-.right {
-    width: 35%;
-    margin-right:70px;
-    margin-left:0px;
-}
-#bottom {
-    margin-left:70px;
-    width:100%;
+.jl-right {
+  width: 35%;
+  margin-right:70px;
+  margin-left:0px;
 }
