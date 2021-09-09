@@ -1,4 +1,6 @@
 /*PART A*/
+
+/*Parallax effect on team name/slogan*/
 .parallax {
   /*image used */
   background-image: url("teamname.png");
@@ -14,13 +16,14 @@
 }
 
 
-
-  .row::after {
+/*  photo grid ... images/previous works column and rows */
+  .grid::after {
     content: "";
     clear: both;
     display: table;
   }
-  .column {
+
+  .grid_column {
     float: left;
     width: 30.33%;
     padding: 18px;
@@ -63,13 +66,13 @@
 }
 
 /* the columns that float next to each other */
-/* Left column */
+/* Left column of the resume:objective, education, work experience */
 .leftcolumn {   
   float: left;
   width: 75%;
 }
 
-/* Right column */
+/* Right column: personal info, skills, awards*/
 .rightcolumn {
   float: left;
   width: 25%;
@@ -79,7 +82,7 @@
 
 
 
-/* card effect  */
+/* card effect aka the card looking background for the personal info, skills, and awards */
 .card {
   background-color: white;
   padding: 20px;
@@ -88,16 +91,10 @@
   font-size: small;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: absolute;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
