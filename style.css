@@ -1,12 +1,12 @@
 /*PART A*/
 .parallax {
-  /* The image used */
+  /*image used */
   background-image: url("teamname.png");
 
-  /* Set a specific height */
+  /* height */
   min-height: 500px; 
 
-  /* Create the parallax scrolling effect */
+  /* parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@
   font-size: 7px;
 }
 
-/* Create two unequal columns that floats next to each other */
+/* the columns that float next to each other */
 /* Left column */
 .leftcolumn {   
   float: left;
@@ -79,7 +79,7 @@
 
 
 
-/* Add a card effect for articles */
+/* card effect  */
 .card {
   background-color: white;
   padding: 20px;
