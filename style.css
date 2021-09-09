@@ -1,0 +1,101 @@
+/*PART A*/
+
+/*Parallax effect on team name/slogan*/
+.parallax {
+  /*image used */
+  background-image: url("teamname.png");
+
+  /* height */
+  min-height: 500px; 
+
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*  photo grid ... images/previous works column and rows */
+  .grid::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .grid_column {
+    float: left;
+    width: 30.33%;
+    padding: 18px;
+    text-align: center;
+    color: black;
+    
+    }
+  img{
+    border-radius: 50%;
+  }
+  .thumbail img{
+    border-radius:0%;
+  }
+
+  img:hover {
+      box-shadow: 0 0 10px 5px rgb(106,176,161);
+  }
+   
+  /*PART B*/
+
+/* Header/Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(121, 90, 140);;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.header img{
+  text-align:left;
+}
+.info h3{
+  font-size:20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.info{
+  font-size: 7px;
+}
+
+/* the columns that float next to each other */
+/* Left column of the resume:objective, education, work experience */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column: personal info, skills, awards*/
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: gray;
+  padding-left: 20px;
+}
+
+
+
+/* card effect aka the card looking background for the personal info, skills, and awards */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+
+/* Footer */
+.footer {
+  padding: absolute;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
