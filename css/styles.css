@@ -3,7 +3,7 @@
 /*Parallax effect on team name/slogan*/
 .parallax {
   /*image used */
-  background-image: url("../teamname.png");
+  background-image: url("../images/teamname_new.png");
 
   /* height */
   min-height: 500px; 
