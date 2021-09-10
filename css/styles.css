@@ -121,7 +121,9 @@ body{
   margin: auto;
   width: 140px;
 }
-
+#jl-photo:hover {
+  box-shadow: none;
+}
 h1.jialin-h1{
   text-align:center;
   padding: 0;
