@@ -241,14 +241,14 @@ ul.jialin-list {
 body{
   font-family:"Arial, Helvetica, sans-serif";
 }
-h1 {
+h1.k {
   text-align: center; 
   margin: 0;
   padding: 0;
   font-variant: small-caps;
 }
 
-h2 {
+h2.k {
   clear: both;
   font-size: 1.3em;
   background-color: white;
@@ -256,7 +256,7 @@ h2 {
   border-bottom: 2px solid #333;
 }
 
-h3{
+h3.k{
   clear: both;
   font-size: 1.3em;
   background-color: white;
@@ -264,7 +264,7 @@ h3{
   border-bottom: 2px solid #333;
 }
 
-h4{
+h4.k{
   clear: both;
   font-size: 1.3em;
   background-color: white;
@@ -272,7 +272,7 @@ h4{
   border-bottom: 2px solid #333;
 }
 
-h5{
+h5.k{
   clear: both;
   font-size: 1.3em;
   background-color: white;
