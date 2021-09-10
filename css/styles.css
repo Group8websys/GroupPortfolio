@@ -229,7 +229,7 @@ ul.jialin-list {
   margin-left:70px;
 }
 .jl-left a {
-  color:black;
+  color:black  !important;
 }
 .jl-right {
   width: 35%;
