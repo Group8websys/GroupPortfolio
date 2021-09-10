@@ -1,4 +1,8 @@
 # GroupPortfolio
+names:Ayah Tharwat, Jialin Yu, Krisia Flores
+rcsid:tharwa,yuj14,florek
+github handle: Ayahth23, jlin9533, kflores2
+
 For our group portfolio, we brainstormed ways to be unique and creative. Our first attempt was in the team name and slogan. 
 We came up with a creative way to combine all our initials together without being mainstream. 
 Jialin combined all our insitials and connected them to relevant colors and then we blended the colors together and got a unique hex code.
