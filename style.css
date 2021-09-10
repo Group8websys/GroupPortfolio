@@ -99,3 +99,89 @@
   background: #ddd;
   margin-top: 20px;
 }
+
+/*Krisia CSS*/
+h1 {
+  text-align: center; 
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+
+h2 {
+  clear: both;
+  font-size: 1.3em;
+  background-color: white;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+h3{
+  clear: both;
+  font-size: 1.3em;
+  background-color: white;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+h4{
+  clear: both;
+  font-size: 1.3em;
+  background-color: white;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+h5{
+  clear: both;
+  font-size: 1.3em;
+  background-color: white;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+/*contact information formatting*/
+#contactInfo {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 4px 0  4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/*contact information formatting*/
+#contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.5em 0 0.5em;
+}
+
+/*dates to right*/
+.date{
+  list-style-type: none;
+  text-align: right;
+  font-size: 0.9em;
+  padding: 0 100px 0 0;
+}
+
+/*formats image*/
+#imgk {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  float: left;
+}
+
+/*div blocks*/
+.box {
+  padding: 5px;
+}
+
+/*footer*/
+#foot {
+  background: #ddd;
+}
